@@ -1,0 +1,182 @@
+{
+  "VisDrone": {
+    "counts": {
+      "Car": 14064,
+      "Motorcycle": 4886,
+      "Bus": 251,
+      "Truck": 2725
+    },
+    "size_dist": {
+      "Car": {
+        "small": 10348,
+        "medium": 3644,
+        "large": 72
+      },
+      "Motorcycle": {
+        "small": 4681,
+        "medium": 201,
+        "large": 4
+      },
+      "Bus": {
+        "small": 167,
+        "medium": 74,
+        "large": 10
+      },
+      "Truck": {
+        "small": 1910,
+        "medium": 777,
+        "large": 38
+      }
+    },
+    "bbox_stats": {
+      "Car": {
+        "avg_area": 1001.0339679235204,
+        "median_area": 433.0657808384,
+        "min_area": 3.1489122303999997,
+        "max_area": 139931.845298176,
+        "pct_small": 73.57792946530148
+      },
+      "Motorcycle": {
+        "avg_area": 303.5705625020306,
+        "median_area": 175.0124957696,
+        "min_area": 3.1505854464000005,
+        "max_area": 23135.067642265603,
+        "pct_small": 95.80433892754809
+      },
+      "Bus": {
+        "avg_area": 1962.3216968414342,
+        "median_area": 508.65152,
+        "min_area": 11.811566387200001,
+        "max_area": 36370.381307904,
+        "pct_small": 66.53386454183267
+      },
+      "Truck": {
+        "avg_area": 1346.3605995235157,
+        "median_area": 511.8033100799999,
+        "min_area": 6.2990290944,
+        "max_area": 124903.7674672128,
+        "pct_small": 70.09174311926606
+      }
+    }
+  },
+  "Songdo": {
+    "counts": {
+      "Car": 49862,
+      "Motorcycle": 820,
+      "Bus": 1766,
+      "Truck": 3080
+    },
+    "size_dist": {
+      "Car": {
+        "small": 49862,
+        "medium": 0,
+        "large": 0
+      },
+      "Motorcycle": {
+        "small": 820,
+        "medium": 0,
+        "large": 0
+      },
+      "Bus": {
+        "small": 1663,
+        "medium": 103,
+        "large": 0
+      },
+      "Truck": {
+        "small": 3043,
+        "medium": 37,
+        "large": 0
+      }
+    },
+    "bbox_stats": {
+      "Car": {
+        "avg_area": 188.09003022895664,
+        "median_area": 184.7389884416,
+        "min_area": 16.237320192000002,
+        "max_area": 800.2110873600001,
+        "pct_small": 100.0
+      },
+      "Motorcycle": {
+        "avg_area": 48.66035420434731,
+        "median_area": 47.1225583616,
+        "min_area": 17.733183487999998,
+        "max_area": 202.8957106176,
+        "pct_small": 100.0
+      },
+      "Bus": {
+        "avg_area": 574.6003973056218,
+        "median_area": 567.18097408,
+        "min_area": 91.30745282560001,
+        "max_area": 2202.6601848832,
+        "pct_small": 94.16761041902605
+      },
+      "Truck": {
+        "avg_area": 326.35195412745975,
+        "median_area": 247.9753150464,
+        "min_area": 49.1694460928,
+        "max_area": 3043.181817856,
+        "pct_small": 98.7987012987013
+      }
+    }
+  },
+  "JATAYU": {
+    "counts": {
+      "Car": 8969,
+      "Motorcycle": 4376,
+      "Bus": 1295,
+      "Truck": 2497
+    },
+    "size_dist": {
+      "Car": {
+        "small": 8965,
+        "medium": 4,
+        "large": 0
+      },
+      "Motorcycle": {
+        "small": 4376,
+        "medium": 0,
+        "large": 0
+      },
+      "Bus": {
+        "small": 680,
+        "medium": 615,
+        "large": 0
+      },
+      "Truck": {
+        "small": 2148,
+        "medium": 349,
+        "large": 0
+      }
+    },
+    "bbox_stats": {
+      "Car": {
+        "avg_area": 279.69771187175576,
+        "median_area": 266.66666666666663,
+        "min_area": 0.22222222222222224,
+        "max_area": 1725.0,
+        "pct_small": 99.9554019400156
+      },
+      "Motorcycle": {
+        "avg_area": 78.44355575868373,
+        "median_area": 72.83333333333334,
+        "min_area": 0.11111111111111112,
+        "max_area": 914.6666666666665,
+        "pct_small": 100.0
+      },
+      "Bus": {
+        "avg_area": 1078.5005577005575,
+        "median_area": 1008.0,
+        "min_area": 5.444444444444445,
+        "max_area": 3639.111111111111,
+        "pct_small": 52.509652509652504
+      },
+      "Truck": {
+        "avg_area": 635.9430872602679,
+        "median_area": 498.22222222222223,
+        "min_area": 72.33333333333334,
+        "max_area": 3724.666666666667,
+        "pct_small": 86.02322787344814
+      }
+    }
+  }
+}

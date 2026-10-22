@@ -1,0 +1,6 @@
+path: e:/UAV-Traffic-Detection/AI-UAV-DL/AI/dataset
+train: VisDrone2019-DET/train/images
+val: VisDrone2019-DET/val/images
+test: VisDrone2019-DET/test/images
+nc: 4
+names: {0: 'Car', 1: 'Motorcycle', 2: 'Bus', 3: 'Truck'}

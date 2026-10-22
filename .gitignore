@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+ai_env/
+build/
+dist/
+*.egg-info/
+
+# Heavy Weights and Large Datasets (GitHub 100MB limit)
+*.pt
+*.pth
+*.onnx
+*.engine
+dataset/
+datasets/
+runs/
+*.mp4
+*.avi
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

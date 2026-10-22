@@ -1,0 +1,5 @@
+path: e:/UAV-Traffic-Detection/AI-UAV-DL/AI/dataset
+train: Songdo_Backup/train/images
+val: Songdo_Backup/val/images
+nc: 4
+names: {0: 'Car', 1: 'Motorcycle', 2: 'Bus', 3: 'Truck'}

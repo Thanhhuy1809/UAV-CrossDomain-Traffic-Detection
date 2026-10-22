@@ -1,0 +1,18 @@
+path: e:/UAV-Traffic-Detection/AI-UAV-DL/AI/dataset
+
+train:
+  - VisDrone2019-DET/train/images
+  - Songdo_Backup/train/images
+  - JATAYU/Dataset1.v6-3x-aug-1280x720-gn_rk_kol_vb.yolov8/train/images
+
+val:
+  - VisDrone2019-DET/val/images
+  - Songdo_Backup/val/images
+  - JATAYU/Dataset1.v6-3x-aug-1280x720-gn_rk_kol_vb.yolov8/valid/images
+
+test:
+  - VisDrone2019-DET/test/images
+  - JATAYU/Dataset1.v6-3x-aug-1280x720-gn_rk_kol_vb.yolov8/test/images
+
+nc: 4
+names: {0: 'Car', 1: 'Motorcycle', 2: 'Bus', 3: 'Truck'}
