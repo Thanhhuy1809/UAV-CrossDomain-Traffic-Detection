@@ -76,45 +76,5 @@ Nhận xét: Các mô hình đơn miền gặp hiện tượng sụp đổ độ
 
 ---
 
-## 5. Hướng dẫn sử dụng
-
-### 5.1. Cài đặt môi trường
-`ash
-git clone https://github.com/Thanhhuy1809/UAV-CrossDomain-Traffic-Detection.git
-cd UAV-CrossDomain-Traffic-Detection
-pip install -r requirements.txt
-`
-
-### 5.2. Tiền xử lý dữ liệu
-`ash
-python data_prep/setup_visdrone.py
-python data_prep/remap_songdo.py
-python data_prep/remap_jatayu.py
-python data_prep/merge_datasets.py
-`
-
-### 5.3. Huấn luyện mô hình Benchmark (Model A, B, C, D)
-`ash
-python training/train_benchmark.py
-`
-
-### 5.4. Huấn luyện YOLO11m với nhánh P2
-`ash
-python training/train_p2_visdrone.py
-`
-
-### 5.5. Huấn luyện với hàm mất mát NWD Loss
-`ash
-python training/patch_nwd_loss.py
-python training/train_nwd.py
-`
-
-### 5.6. Chạy Tracking và Đếm phương tiện trên Video UAV
-`ash
-python inference/track_model_d.py --source /duong/dan/den/video.mp4 --conf 0.25
-`
-
----
-
-## 6. Giấy phép
+## 5. Giấy phép
 Dự án được phân phối theo giấy phép MIT License.
