@@ -73,8 +73,3 @@ Nhận xét: Các mô hình đơn miền gặp hiện tượng sụp đổ độ
 | | Truck (Xe tải) | 87.24% | 87.55% | 87.39% | 94.35% | 77.20% |
 
 Điểm nghẽn nhận diện: Lớp xe máy (Motorcycle) luôn có mức Recall thấp nhất trên cả 3 miền (chỉ đạt từ 42% đến 60%), đây là động lực chính cho việc đề xuất và phát triển nhánh P2 và hàm mất mát NWD trong giai đoạn cải tiến.
-
----
-
-## 5. Giấy phép
-Dự án được phân phối theo giấy phép MIT License.
